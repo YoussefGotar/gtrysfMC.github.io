@@ -1,0 +1,247 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppin', sans-serif ;
+    scroll-behavior: smooth;
+  
+
+}
+p{
+    font-weight: 300;
+    color: black;
+}
+header{
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    padding: 20px;
+    width: 100%;
+    z-index: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: 0.5s;
+}
+.logo{
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-size: 2em;
+    text-decoration: none;
+    align-items: center;
+}
+.logo span{
+    color: rgb(238, 174, 128);
+
+
+}
+.navbar{
+    display: flex;
+    position: relative;
+
+}
+.navbar li{
+    list-style: none;
+}
+.navbar a{
+   /* color: rgb(131, 42, 42);*/
+    text-decoration: none;
+    margin-left: 30px;
+    font-weight: 700;
+}
+.btn-resurvation{
+    padding: 10px 20px;
+    background: orangered;
+    margin-top: -10px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+
+
+}
+.btn-resurvation{
+    background: orangered;
+    transition: ease-out;
+}
+header li a{
+    color: rgb(255, 255, 255);
+
+  
+   font-size: 22px;
+
+  
+}
+header li a:hover{
+    color: rgb(255, 255, 255);
+
+    color:beige;
+    border-bottom: 2px solid ;
+    background-color: tan;
+   font-size: 2em;
+
+  
+}
+.banniere{
+     position: relative;
+     width: 100%;
+     min-height: 100vh;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+    background-image: url(./Nouveau\ dossier/pageheader-banner.jpg);
+    background-size: cover;
+}
+.banniere h2{
+    color: #fff;
+    max-width: #fff;
+    font-size: 3em;
+    text-transform: capitalize;
+
+}
+.contenu p:nth-child(2){
+    color: #fff;
+    font-size: 1.2em;
+}
+.btn1{
+    font-size: 1em;
+    color: #fff;
+   background: orange;
+   padding: 10px 20px;
+   display: inline-block;
+   margin-top: 20px;
+   text-transform: uppercase;
+   text-decoration: none;
+   letter-spacing: 2px;
+   transition:  0.5s;
+   margin-left: 10px;
+}
+.btn2{
+    font-size: 1em;
+    color: #fff;
+   background: rgb(67, 67, 87);
+   padding: 10px 20px;
+   display: inline-block;
+   margin-top: 20px;
+   text-transform: uppercase;
+   text-decoration: none;
+   letter-spacing: 2px;
+   transition:  0.5s;
+   margin-left: 10px;
+}
+.btn1:hover{
+    letter-spacing: 4px;
+}
+.btn2:hover{
+    letter-spacing: 4px;
+}
+section{
+    padding: 100px;
+}
+.row{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+
+}
+.row.col50{
+    position: relative;
+    width: 40%;
+    justify-content: center;
+
+
+}
+.row.col50 h2{
+    margin-bottom: 20px;
+    /*
+    position: relative;
+    width: 40%;
+    justify-content: center;*/
+    
+
+}
+.t-txt{
+    color: black;
+    font-size: 2em; 
+    font-weight: 300px ;
+    text-transform: capitalize;
+
+}
+.t-txt span{
+    color: orange;
+    font-size: 1.5em;
+    font-weight: 700px;
+
+}
+.row.row.col50 img{
+    height: 450px;
+    width: 600px;
+    position: relative;
+
+}
+.titre{
+     display: flex;
+     width: 100px;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;
+}
+
+.menu 
+{
+   
+    text-align: center;
+    margin: -100px;
+}
+.img1{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    position: absolute;
+
+
+}
+
+.logo1{
+    color:black;
+    font-weight: bold;
+    font-size: 2em;
+    text-decoration: none;
+    align-items: center;
+    text-align: center;
+}
+.logo1 span{
+    color: rgb(238, 174, 128);
+    border-radius:1px;
+
+}
+
+.table{
+    padding: 2px;
+   text-align: center;
+}
+.img4{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+     margin-top: 40px;
+     width: 350px;
+     margin-top: 20px;
+     border: 20px solid rgb(236, 230, 230);
+     box-shadow: 20px 15px 35px rgba(0,0,0,0  );
+
+
+     
+}
+.btn3{
+    font-size: 1em;
+    color: #fff;
+   background: orange;
+   padding: 10px 20px;
+   display: inline-block;
+   margin-top: 20px;
+   text-transform: uppercase;
+   text-decoration: none;
+   letter-spacing: 2px;
+   transition:  0.5s;
+   margin-left: 10px;
+ 
+}
